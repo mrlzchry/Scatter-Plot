@@ -24,15 +24,42 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+#y-axis line {
+  stroke: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#y-axis path {
+  stroke: black;
+}
+
+#y-axis text {
+  color: black;
+  font-weight: lighter;
+}
+
+#x-axis line {
+  stroke: black;
+}
+
+#x-axis path {
+  stroke: black;
+}
+
+#x-axis text {
+  /* stroke: black; */
+  color: black;
+  font-weight: lighter;
+}
+
+#tooltip {
+  position: absolute;
+  text-align: center;
+  height: auto;
+  width: auto;
+  padding: 5px;
+  font-size: 16px;
+  background: #25A18E;
+  box-shadow: 1px 1px 10px;
+  pointer-events: none;
 }
