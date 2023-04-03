@@ -157,6 +157,8 @@ const svg = d3.select(svgRef.current)
       <title id="title">{title}</title>
       <h1>{title}</h1>
       <svg ref={svgRef}></svg>
+      <h5>Created by Ammarul Mubsyir</h5>
+      <h6><a href="https://github.com/mrlzchry/Scatter-Plot/tree/main/src">Source Code</a></h6>
     </React.Fragment>
   )
 }
